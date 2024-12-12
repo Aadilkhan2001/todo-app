@@ -7,11 +7,7 @@ export const connectDB = async () =>
   try
   {
     console.log(config.databaseUrl)
-    await mongoose.connect(config.databaseUrl,
-    {
-      useNewUrlParser: true, 
-      useUnifiedTopology: true,
-    });
+    await mongoose.connect(config.databaseUrl);
     console.log('Database Connected');
   }
   catch (err)
