@@ -4,8 +4,7 @@
   "description": "Backend For Todo Application",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "vercel-build": "echo build-started"
+    "start": "node src/server.js"
   },
   "author": "Adilkhan",
   "license": "ISC",
